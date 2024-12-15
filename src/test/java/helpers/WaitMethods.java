@@ -28,10 +28,10 @@ public class WaitMethods {
     }
     public void waitFor(int intervalMs) {
         try {
-            LoggerUtility.infoLog("Waiting for {} ms");
+//            LoggerUtility.infoLog("Waiting for {} ms");
             Thread.sleep(intervalMs);
         } catch (InterruptedException | StaleElementReferenceException e) {
-            LoggerUtility.errorLog(e.getLocalizedMessage());
+//            LoggerUtility.errorLog(e.getLocalizedMessage());
             Thread.currentThread().interrupt();
         }
     }

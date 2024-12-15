@@ -2,11 +2,13 @@ package pages;
 
 import helpers.ActionMethods;
 import helpers.WaitMethods;
+import listeners.TestListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class BasePages {
     protected WebDriver driver;
+    protected TestListener testListener;
     protected ActionMethods actionMethods;
     protected WaitMethods waitMethods;
 
@@ -14,6 +16,7 @@ public class BasePages {
         this.driver = driver;
         actionMethods = new ActionMethods(this.driver);
         waitMethods = new WaitMethods(this.driver);
+        testListener = new TestListener(this.driver);
     PageFactory.initElements(this.driver,this);
     }
 }

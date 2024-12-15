@@ -31,6 +31,7 @@ public class ChromeService implements BrowserService {
         options.addArguments("--no-sandbox"); // Required for GitHub Actions
         options.addArguments("--disable-dev-shm-usage"); // Prevents memory issues
         options.addArguments("--window-size=1920,1080"); // Set a default window size
+//        options.setCapability("browserName", "Chrome");
         return options;
     }
 

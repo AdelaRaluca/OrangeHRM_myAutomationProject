@@ -1,7 +1,6 @@
 package modelObject;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.SneakyThrows;
 
 import java.io.IOException;
 import java.nio.file.Files;

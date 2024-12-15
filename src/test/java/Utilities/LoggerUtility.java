@@ -18,6 +18,8 @@ public class LoggerUtility {
         logger.error(message);
     }
 
+    public static void warnLog(String message) {logger.warn(message);}
+
     public static void finishTest(String testName){
         logger.info("********************* EXECUTION FINISHED: " + testName + " *********************");
     }

@@ -5,6 +5,7 @@ import modelObject.LoginModel;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class LoginPage extends BasePages{
 
@@ -24,6 +25,7 @@ public class LoginPage extends BasePages{
     @FindBy(xpath = "//header/div[1]/div[1]/span[1]/h6[1]")
     private WebElement homePage;
 
+
     public void validLogin(LoginModel testData) {
         actionMethods.typeText(emailInput, testData.getUsername());
         LoggerUtility.infoLog("The User fill the username");
@@ -32,7 +34,4 @@ public class LoginPage extends BasePages{
         actionMethods.clickElement(loginBtn);
         LoggerUtility.infoLog("The User click on Login button");
     }
-    public void verifyLoginSuccessfull(){
-
-}
 }
