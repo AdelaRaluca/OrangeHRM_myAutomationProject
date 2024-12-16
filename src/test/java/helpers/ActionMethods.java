@@ -2,7 +2,6 @@ package helpers;
 
 import Utilities.LoggerUtility;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -56,6 +55,9 @@ public class ActionMethods {
 //        LoggerUtility.infoLog(String.format("Sent text %s to element %s", text, elem));
     }
 
-    public void sendKeys(Keys enter) {
+    public void sendKeys(WebElement enter) {
     }
+    public void sendKeys(WebElement enter, String text) {
+    }
+
 }

@@ -1,0 +1,32 @@
+Role
+Software Development Engineer in Test (SDET) is assumed to be responsible for the design, development, and maintenance of automated test solutions. SDET must possess a quite good experience in Java as well as modern testing tools (e.g. Selenium, TestNG, Rest Assured, etc.), he/she should be able to write and support automated testing solutions for multi-tiered applications. Proper and successful execution of this role will involve fluency in test automation frameworks, attention to detail, understanding of business processes, and unwavering dedication to software quality.
+
+
+Responsibilities
+Have to use programming knowledge, Java - to craft and develop automated testing solutions
+Improvize all the documents and maintain tools and automation frameworks for test engineering
+Should help with the required support to the test engineering teams in their automation needs
+Have to provide guidance and assistance to Test Automation Engineers in Enterprise Test Engineering.
+Collaboration with various stakeholders - Product Management, Application Development, DevOps, and other Technical teams in planning and coordination is a must
+Expand the capabilities of the framework to support the completion of automated tests against different testing environments and also develop automated component tests to validate component behavior
+
+Requirements
+Hands-on experience in Development or Test Automation Framework implementations in Enterprise/Internet commercial software environments with a minimum of X years of Java Development/Programming or test engineering experience & in open-source tools such as Selenium, Appium, TestNG/JUnit, etc.
+Experience as Java Developer/SDET/Test Automation Engineer
+Experience in automation of services/API software layers (e.g. UI, services, APIs, etc.) and debugging, and optimizing of applications/ automated test scripts
+Ability to programmatically test your own code
+Minimum understanding of design patterns, data structures, and layered architecture with knowledge of applying those aspects in test environments
+Accurate Knowledge of CI/CD technologies (e.g. Jenkins, Git, Maven, etc.)
+Experienced in conducting automation testing in multiple platforms such as Mobile Web, Android, iOS, and or Backend API (REST API)
+Knowledge or experience in other languages/tools - AngularJS, Protractor, Jasmine, JavaScript, JMeter, UFT/QTP, etc.
+
+Soft Skills
+Ability to solve problems with effective communication skills
+Attention to detail
+Critical thinking, creativity, and problem-solving
+
+Bonus
+Java Certification is a big plus requirement and knowledge or experience in AWS Cloud is highly desirable and will be given special attention
+
+Promotion Stage
+Senior SDET, SDET Manager, Test Architect

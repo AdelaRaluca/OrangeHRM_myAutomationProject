@@ -18,10 +18,11 @@ public class HomePage extends  BasePages{
     @FindBy(xpath = "//body[1]/div[1]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]/a[1]")
     private WebElement adminBtn;
 
-    public void pressAdminBtn(){
+    public AdminPage pressAdminBtn(){
     actionMethods.clickElement(adminBtn);
         LoggerUtility.infoLog("The User click on Admin Menu Option");
     waitMethods.waitFor(350);
+    return new AdminPage(driver);
 }
 
     public void verifyCurrentPageIsHomePage(){

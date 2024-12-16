@@ -1,0 +1,6 @@
+{
+  "jobTitleInput": "A_SDET",
+  "jobDescriptionInput": "Software Development Engineer in Test (SDET) is assumed to be responsible for the design, development, and maintenance of automated test solutions.",
+  "jobSpecificationFile":"src/main/resources/jobSpecificationFile.txt",
+  "noteInput": "This is a sample note for the job title."
+}

@@ -5,7 +5,6 @@ import modelObject.LoginModel;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
 
 public class LoginPage extends BasePages{
 
@@ -34,4 +33,5 @@ public class LoginPage extends BasePages{
         actionMethods.clickElement(loginBtn);
         LoggerUtility.infoLog("The User click on Login button");
     }
+
 }
