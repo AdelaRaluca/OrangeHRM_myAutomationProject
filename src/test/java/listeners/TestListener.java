@@ -12,11 +12,14 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class TestListener implements ITestListener {
+    protected WebDriver driver;
 
-    public WebDriver driver;
+    protected TestListener testListener;
 
-    public TestListener(WebDriver driver) {
-        this.driver=driver;
+    public TestListener() {
+//        this.driver=driver;
+//        testListener = new TestListener();
+//        testListener.setDriver(driver);
 
     }
 
@@ -69,5 +72,8 @@ public class TestListener implements ITestListener {
         LoggerUtility.infoLog("**** FINISHING TEST SUITE ****");
         LoggerUtility.infoLog("Total Tests Run: " +
                 (context.getPassedTests().size() + context.getFailedTests().size()));
+    }
+
+    public void setTestClassName(String testClassName) {
     }
 }

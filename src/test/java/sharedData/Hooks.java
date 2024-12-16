@@ -6,6 +6,9 @@ import Utilities.LoggerUtility;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;
 import listeners.TestListener;
+import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -17,7 +20,8 @@ public class Hooks extends SharedData {
     public String testClassName;
     protected ExtentTestManager test;
     protected ExtentReports extent;
-
+    protected TestListener testListener;
+    protected WebDriver driver;
 
     @BeforeSuite(alwaysRun = true)
     public void extentSetup() {
@@ -29,6 +33,9 @@ public class Hooks extends SharedData {
         testClassName = this.getClass().getSimpleName();
 
         setUpDriver();
+//        testListener = new TestListener();
+//        testListener.setTestClassName(testClassName);
+//        testListener.setDriver(driver);
         LoggerUtility.startTest(testClassName);
     }
     @BeforeMethod

@@ -15,6 +15,7 @@ public class ActionMethods {
 
     public ActionMethods(WebDriver driver){
         this.driver=driver;
+        this.waitMethods = new WaitMethods(driver);
     }
 
     public void clickElement(WebElement element) {
